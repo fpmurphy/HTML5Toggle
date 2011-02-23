@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{16f32596-71ca-4053-a4f3-cfc8b157f541}</em:id>
+    <em:type>2</em:type>
+    <em:version>1.04</em:version>
+    <em:bootstrap>true</em:bootstrap>
+    <em:name>HTML5Toggle</em:name>
+    <em:creator>Finnbarr P. Murphy</em:creator>
+    <em:description>Toggle HTML5 browser support on or off.</em:description>
+    <em:homepageURL>http://github.com/fpmurphy/HTML5Toggle</em:homepageURL>
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0b8</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

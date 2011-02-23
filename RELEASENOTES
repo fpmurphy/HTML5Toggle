@@ -1,0 +1,75 @@
+ 
+                    RELEASE NOTES
+                   ===============
+
+ 
+Email me at fpm@fpmurphy.com with any comments, bugs, or 
+feature requests.
+
+
+Purpose
+-------
+
+This add-on simply toggles the html5.enable preference on
+or off.  
+
+
+Installation
+------------
+
+Install as you would any other add-on.
+
+When you install the add-on, the HTML5 toggle button is 
+placed in the toolbar pallette.  You need to move the
+button from the toolbar pallette onto toobar using the
+Customize Toolbar option to actually use the HTML5 toggle
+button.  
+
+
+Known Issues
+------------
+
+None
+
+
+v1.0  Release  2/16/2011
+------------------------
+
+First public release.
+
+
+v1.0.1  Release 2/17/2011
+-------------------------
+
+Minor maintenance release. 
+
+
+v1.0.2  Release 2/19/2011
+-------------------------
+
+1. Fixed issue with button in toolbar palette which I broke
+   in v1.0.1 release.
+
+2. Added support to restore state of html5.enable preference
+   to that prior to installing this add-on.
+
+3. Min version now set to 4.0b8.
+
+
+v1.0.3  Release 2/20/2011
+-------------------------
+
+Refactored code to make better use Javascript code modules
+and reduce LOCs.
+
+
+v1.1  Release 2/22/2011
+-----------------------
+
+Complete rewrite to make add-on a rebootless add-on.
+Functionality unchanged except Firefox button has extra
+menu opion "HTML5 Toggle" under Options.
+
+
+
+
